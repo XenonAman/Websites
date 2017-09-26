@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	  <head>
+	  		
+	  		<!------- Meta Tags ------>
+
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	   
+	    <link rel="icon" href="Ecell logo 2.png" style="width: 5px; height: auto;">
+	    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bree+Serif|Fjalla+One|Pridi|Quantico" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+	    <title>E-Cell VSIT</title>
+
+	 		<!------- Bootstrap ------>
+
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/COUNTcustome.css" rel="stylesheet">		
+
+
+	  </head>
+
+
+	  <body>
+	    
+
+	    <!----------Ecell Logo-------------->
+
+	    <div class="row" align="center">
+			<div class="col-lg-12 col-sm-6" align="center">
+			<img src="ecell.png" style="height: 120px; width: auto;" />
+			</div>
+		</div>
+
+
+	    <div class="container">
+	  			  
+						   <!------- Bizcon Logo ------>
+
+				      <div class="row" align="center">
+	 				       <div class="col-lg-12 col-sm-6" align="center">
+	 				       <img src="1B.png" class="mainlogo" />
+	  				       </div>
+					  </div>
+	    					
+
+
+	    					<!------ The Clock ------>
+
+	     			  <div class="row" align="center">
+
+	     			  			<div class="col-lg-2" align="center"></div>
+
+	     			  			<div class="col-lg-2 col-sm-4" align="center">
+	     			  				<div class="row box" id="Days">15</div>
+	     			  				<div class="row box2">Days</div>
+	     			  			</div>
+
+
+	     			  			<div class="col-lg-2 col-sm-4" align="center">
+	     			  				<div class="row box" id="Hours">16</div>
+	     			  				<div class="row box2">Hours</div>
+	     			  			</div>
+
+	     			  			<div class="col-lg-2 col-sm-4" align="center">
+	     			  				<div class="row box" id="Minutes">17</div>
+	     			  				<div class="row box2">Minutes</div>
+	     			  			</div>
+
+	     			  			<div class="col-lg-2 col-sm-4" align="center">
+	     			  			<div class="row box" id="Seconds">18</div>	
+	     			  			<div class="row box2">Seconds</div>
+	     			  			</div>
+
+	     			  			<div class="col-lg-2" align="center"></div>
+
+	     			  </div>
+
+	     			  
+	     			  <!--<div class="row abc">
+	     			  	<p class=abc>to go...................</p>
+	     			  </div>-->
+
+
+
+
+	     			  			<!-------------------------------------------->
+	     			  			<!------------ countdown script -------------->
+
+
+	     			  	<script type="text/javascript">
+	     			  		
+	     			  		function countdown()
+	     			  		{
+	     			  			var now=new Date();
+	     			  			var eventdate=new Date(2018, 2, 3);
+
+	     			  			currentTime = now.getTime();
+	     			  			eventTime = eventdate.getTime();
+
+	     			  			var remTime = eventTime - currentTime;
+
+	     			  			var s = Math.floor(remTime/1000);
+	     			  			var m = Math.floor(s/60);
+	     			  			var h = Math.floor(m/60);
+	     			  			var d = Math.floor(h/24);
+
+	     			  			h %= 24;
+	     			  			m %= 60;
+	     			  			s %= 60;
+
+	     			  			h = (h<10) ? "0" + h : h;
+	     			  			m = (m<10) ? "0" + m : m;
+	     			  			s = (s<10) ? "0" + s : s;
+
+	     			  			document.getElementById("Days").innerText = d;
+	     			  			document.getElementById("Hours").innerText = h;
+	     			  			document.getElementById("Minutes").innerText = m;
+	     			  			document.getElementById("Seconds").innerText = s;
+
+	     			  			setTimeout(countdown, 1000);
+	     			  		}
+
+	     			  		countdown();
+
+	     			  	</script>
+
+ 
+
+		</div>
+
+				  <!---------------Footer-------------->
+
+
+		  	<div class="row foot">
+
+		  		<div class="col-sm-6 " align="left">
+		  			<p>© 2017 E-Cell | Vidyalankar School of Information Technology.<br>All Rights Reserved.</p>
+		  		</div>
+
+		  		<div class="col-sm-6" align="right">
+		  			<p>For more details.
+		  			<a href="https://www.facebook.com/EcellVsit/"><img src="F.png" class="icons" /></a>
+		  			<a href="https://twitter.com/EcellVsit?lang=en"><img src="T.png" class="icons" /></a>
+		  			<a href="https://www.instagram.com/ecellvsit/"><img src="I.png" class="icons " /></a>
+		  			</p>
+		  		</div>
+
+		 	</div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+
+</html>
