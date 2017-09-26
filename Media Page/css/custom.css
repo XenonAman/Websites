@@ -1,0 +1,476 @@
+body
+{
+    background:url(../img/bg.png);
+	background-size: 100% 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event_area
+{
+	background-color:rgba(0,0,0,0.8);
+	padding-bottom: 30px;
+}
+
+.news_area
+{
+	background-color:rgba(254, 254, 254 ,0.8);
+}
+
+.gallery_area
+{
+	background-color:rgba(0,0,0,0.8);
+	padding-bottom: 30px;
+}
+
+.video_area
+{
+    background-color:rgba(254, 254, 254 ,0.8);
+    padding-bottom: 30px;
+}
+
+			/*=========Separator=========*/
+
+.boxs
+{
+	width: 10px;
+    height: 10px;
+    background-color: #e74c3c;
+    transform: rotate(45deg);
+
+}
+
+.separator 
+{
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    position: relative;
+    display: inline-block;
+}
+
+.separator:after 
+{
+    position: absolute;
+    left:5%;
+    bottom:4px;
+    height: 3px;
+    width: 150px;
+    background: #000;
+    content:"";
+    display: inline-block;
+    margin-left: 20px;   
+}
+
+.separator:before 
+{
+    position: absolute;
+    right: 5%;
+    bottom:4px;
+    height: 3px;
+    width: 150px;
+    background: #000;
+    content:"";
+    display: inline-block;
+    margin-right: 20px;
+    transform: rotate(0deg);
+}
+
+.separator2 
+{
+    height: 4px;
+    width:150px;
+    margin: 10px 0px;
+    background: #eeeeee;
+}
+
+					/* ===Hedding Part Chalu=== */
+
+h1
+{
+	padding-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: bold;
+	color: #248683;
+	font-size: 45px;
+}
+
+.subtitle
+{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: bold;
+	color: #248683;
+	font-size: 20px;
+}
+
+					/* ===Hedding Part khatam=== */
+
+					/* ===Event Part Chalu=== */
+
+.eventimg
+{
+    text-align: center;
+    line-height:45px;
+    margin-top:40px;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+}
+.eventimg:hover
+{
+    box-shadow: 2px 2px 15px #fff;
+
+}
+
+.event_head
+{
+	background:#e74c3c;
+    padding: 30px 0px;
+    background: #999999;
+    position: relative;
+    height: 200px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size:2.822rem; 
+}
+
+.event_head h3
+{
+    text-transform:uppercase;
+    color:#fff;
+    font-size:24px;
+}
+
+.event_body
+{
+    background: #dc143c;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 110px 0px 30px 0px;
+}
+
+					/* ===Event ka img=== */
+
+.E1img
+{
+    background: #000;
+	position: absolute;
+    left: 30%;
+    bottom: -30%;
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+}
+.E1img:hover
+{
+    position: absolute;
+    left: 22.3%;
+    bottom: -48%;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 0%;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+    transition: all 1.00s ease-in-out;
+    -moz-transition: all 1.00s ease-in-out;
+    -webkit-transition: all 1.00s ease-in-out;
+    -o-transition: all 1.00s ease-in-out;
+    -ms-transition: all 1.00s ease-in-out;
+}
+
+.E2img
+{
+    background: #ccc;
+    position: absolute;
+    left: 30%;
+    bottom: -30%;
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+}
+.E2img:hover
+{
+    position: absolute;
+    left: 22.3%;
+    bottom: -48%;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 0%;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+    transition: all 1.00s ease-in-out;
+    -moz-transition: all 1.00s ease-in-out;
+    -webkit-transition: all 1.00s ease-in-out;
+    -o-transition: all 1.00s ease-in-out;
+    -ms-transition: all 1.00s ease-in-out;
+}
+
+.E3img
+{
+    background: #fff;
+    position: absolute;
+    left: 30%;
+    bottom: -30%;
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+}
+.E3img:hover
+{
+    position: absolute;
+    left: 22.3%;
+    bottom: -48%;
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    padding: 30px 0px;
+    border-radius: 0%;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+    transition: all 1.00s ease-in-out;
+    -moz-transition: all 1.00s ease-in-out;
+    -webkit-transition: all 1.00s ease-in-out;
+    -o-transition: all 1.00s ease-in-out;
+    -ms-transition: all 1.00s ease-in-out;
+}
+
+					/* ===Event Part khatam=== */
+					
+					/* ===News Part Chalu=== */
+
+.nopadding > div[class^="col-"] 
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main_news
+{
+    margin-top:40px;
+}
+
+.news_text
+{
+	width:100%;
+    height: 417px;
+    background: #e74e3e;
+    padding: 70px 30px 0px 50px;
+    position: relative;
+}
+
+.s_b_left:after
+{
+    position: absolute;
+    left:-8%;
+    top:45%;
+    content:"";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #e74e3e;
+    border-bottom: 30px solid transparent;
+}
+
+.s_b_right:after
+{
+    position: absolute;
+    right: -8%;
+    top:45%;
+    content:"";
+    z-index: 9;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 30px solid #e74e3e;;
+    border-bottom: 30px solid transparent;
+}
+
+a.read_more
+{
+    color:#fff;
+}
+
+.news_img
+{
+    width:100%;
+    height: 417px;
+    display: inline-block;
+    background-color: #000;
+}
+
+
+
+
+					/* ===News Part khatak=== */
+
+					/* ===Gallery Part Chalu=== */
+
+.r1
+{ 
+	width:100%;
+    height: 300px;	
+}
+.r1:hover
+{ 
+	box-shadow: 0px -5px 2px #fff;
+}
+
+.r2
+{ 
+	width:100%;
+    height: 300px;
+}
+.r2:hover
+{ 
+	box-shadow: 0px -5px 2px #fff;
+}
+
+.r3
+{ 
+	width:100%;
+    height: 300px;
+}
+.r3:hover
+{ 
+	box-shadow: 0px -5px 2px #fff;
+}
+
+.r4
+{ 
+	width:100%;
+    height: 300px;
+}
+.r4:hover
+{ 
+	box-shadow: 0px -5px 2px #fff;
+}
+
+.r5
+{ 
+	width:100%;
+    height: 300px;	
+}
+.r5:hover
+{ 
+	box-shadow: 0px 5px 2px #fff;
+}
+
+.r6
+{ 
+	width:100%;
+    height: 300px;
+}
+.r6:hover
+{ 
+	box-shadow: 0px 5px 2px #fff;
+}
+
+.r7
+{ 
+	width:100%;
+    height: 300px;
+}
+.r7:hover
+{ 
+	box-shadow: 0px 5px 2px #fff;
+}
+
+.r8
+{ 
+	width:100%;
+    height: 300px;
+}
+.r8:hover
+{ 
+	box-shadow: 0px 5px 2px #fff;
+}
+
+					/* ===Gallery Part khatam=== */
+
+                    /* ===Video Part chalu=== */
+
+#vid
+{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #000;
+}
+
+#lefts
+{
+    width: 800px;
+    height: 450px;
+    float: left;
+    background-color: #000;
+}
+
+#rights
+{
+    width: 400px;
+    height: 450px;
+    padding-right: 2%;
+    padding-left: 2%;
+    float: left;
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 1199px)
+{
+    #vid
+    {
+        width: 100%;
+    }
+
+    #lefts
+    {
+        width: 66.67%;
+    }
+
+    #rights
+    {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    #lefts
+    {
+        width: 100%;
+    }
+
+    #rights
+    {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    #vid
+    {
+        width: 300px;
+    }
+}
+
+                    /* ===Video Part khatam=== */
